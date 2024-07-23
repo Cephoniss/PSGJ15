@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1721697020
+candel.gd::GDScript::-1::1721696288::0::1::::<>Area2D<>::
+Control.gd::GDScript::-1::1721604527::0::1::::<>Control<>::
+icon.svg::CompressedTexture2D::1129711863279130275::1721593214::1721697021::1::::<><>::
+lab.tscn::PackedScene::6140606086807958553::1721696944::0::1::::<><>::uid://d1qxkrwqrbvf8::::res://rooms/images/sampleroom2.png<>res://Control.gd<>res://candel.gd<>uid://c0y0rilytbiqr::::res://rooms/images/samplecandle.png
+::res://rooms/::1721600389
+::res://rooms/images/::1721695104
+samplecandle.png::CompressedTexture2D::6578656246045530569::1721695104::1721697021::1::::<><>::
+sampleroom2.png::CompressedTexture2D::9018617306138177079::1721694948::1721697021::1::::<><>::
+sampleroom.png::CompressedTexture2D::1044593891293268635::1721600403::1721697021::1::::<><>::

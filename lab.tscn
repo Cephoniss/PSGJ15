@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://ctqs5df2t1ahl"]
+
+[ext_resource type="Texture2D" uid="uid://d1qxkrwqrbvf8" path="res://rooms/images/sampleroom2.png" id="1_edaxx"]
+[ext_resource type="Script" path="res://Control.gd" id="2_ld038"]
+[ext_resource type="Script" path="res://candel.gd" id="3_k6fr5"]
+[ext_resource type="Texture2D" uid="uid://c0y0rilytbiqr" path="res://rooms/images/samplecandle.png" id="3_pj2a1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pa4gx"]
+size = Vector2(213, 234.5)
+
+[node name="lab" type="Node2D"]
+
+[node name="BackgroundImage" type="Sprite2D" parent="."]
+position = Vector2(960, 541)
+scale = Vector2(1, 0.998148)
+texture = ExtResource("1_edaxx")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_ld038")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Candel" type="Sprite2D" parent="Node2D"]
+position = Vector2(445, 793)
+texture = ExtResource("3_pj2a1")
+
+[node name="Area2D" type="Area2D" parent="Node2D/Candel"]
+script = ExtResource("3_k6fr5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Candel/Area2D"]
+position = Vector2(2, 3)
+shape = SubResource("RectangleShape2D_pa4gx")
