@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0y0rilytbiqr"
-path="res://.godot/imported/samplecandle.png-893b350b40dc3b6fc0a00b037c20f090.ctex"
+path="res://.godot/imported/samplecandle.png-cfc1c09ded6a25a95b2ede064ec5fd14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rooms/images/samplecandle.png"
-dest_files=["res://.godot/imported/samplecandle.png-893b350b40dc3b6fc0a00b037c20f090.ctex"]
+source_file="res://objects/samplecandle.png"
+dest_files=["res://.godot/imported/samplecandle.png-cfc1c09ded6a25a95b2ede064ec5fd14.ctex"]
 
 [params]
 
