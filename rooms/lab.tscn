@@ -1,0 +1,77 @@
+[gd_scene load_steps=13 format=3 uid="uid://ctqs5df2t1ahl"]
+
+[ext_resource type="Texture2D" uid="uid://d1qxkrwqrbvf8" path="res://rooms/images/sampleroom2.png" id="1_iryi5"]
+[ext_resource type="Script" path="res://Scripts/Control.gd" id="2_xp2jr"]
+[ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
+[ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
+[ext_resource type="Script" path="res://Scripts/bucket.gd" id="5_1q0up"]
+[ext_resource type="Texture2D" uid="uid://bo83paqaskuo0" path="res://objects/samplefeather.png" id="6_6uwfp"]
+[ext_resource type="Script" path="res://Scripts/feather.gd" id="6_equyi"]
+[ext_resource type="Texture2D" uid="uid://wmxc0qcnhr1f" path="res://objects/samplesoil.png" id="8_io38u"]
+[ext_resource type="Script" path="res://Scripts/soil.gd" id="9_btytg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pdv1t"]
+size = Vector2(113, 179.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qkxgo"]
+size = Vector2(155, 238)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lgj1p"]
+size = Vector2(244, 68.5)
+
+[node name="lab" type="Node2D"]
+
+[node name="BackgroundImage" type="Sprite2D" parent="."]
+position = Vector2(960, 541)
+scale = Vector2(1, 0.998148)
+texture = ExtResource("1_iryi5")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_xp2jr")
+
+[node name="CandelObject" parent="." instance=ExtResource("3_ber1y")]
+
+[node name="Bucket" type="Node2D" parent="."]
+position = Vector2(2, -1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Bucket"]
+position = Vector2(648, 813)
+scale = Vector2(0.97619, 0.994444)
+texture = ExtResource("4_ttfft")
+
+[node name="Area2D" type="Area2D" parent="Bucket/Sprite2D"]
+script = ExtResource("5_1q0up")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bucket/Sprite2D/Area2D"]
+shape = SubResource("RectangleShape2D_pdv1t")
+
+[node name="Feather" type="Node2D" parent="."]
+position = Vector2(1220, 777)
+
+[node name="Sprite2D" type="Sprite2D" parent="Feather"]
+texture = ExtResource("6_6uwfp")
+
+[node name="Area2D" type="Area2D" parent="Feather/Sprite2D"]
+script = ExtResource("6_equyi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Feather/Sprite2D/Area2D"]
+position = Vector2(-1.5, 5)
+shape = SubResource("RectangleShape2D_qkxgo")
+
+[node name="Soil" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Soil"]
+position = Vector2(866, 872)
+texture = ExtResource("8_io38u")
+
+[node name="Area2D" type="Area2D" parent="Soil/Sprite2D"]
+script = ExtResource("9_btytg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Soil/Sprite2D/Area2D"]
+position = Vector2(0, -4.75)
+scale = Vector2(0.847156, 1)
+shape = SubResource("RectangleShape2D_lgj1p")

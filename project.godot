@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="PSGM15"
-run/main_scene="res://lab.tscn"
+run/main_scene="res://rooms/lab.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+InventoryManager="*res://Scripts/InventoryManager.gd"
 
 [display]
 
