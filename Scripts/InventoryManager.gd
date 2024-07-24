@@ -1,6 +1,10 @@
 extends Node
 
 var inventory = {}
+var bucket: bool = false
+var feather: bool = false
+var candle: bool = false
+var soil: bool = false
 
 func add_to_inventory(item_name: String):
 	inventory[item_name] = true
