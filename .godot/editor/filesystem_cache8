@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721697629
+::res://::1721780062
 icon.svg::CompressedTexture2D::1129711863279130275::1721593214::1721697021::1::::<><>::
-lab.tscn::PackedScene::6140606086807958553::1721697629::0::1::::<><>::uid://d1qxkrwqrbvf8::::res://rooms/images/sampleroom2.png<>res://Scripts/Control.gd<>res://Scripts/candel.gd<>uid://c0y0rilytbiqr::::res://objects/samplecandle.png
+lab.tscn::PackedScene::6140606086807958553::1721698083::0::1::::<><>::uid://d1qxkrwqrbvf8::::res://rooms/images/sampleroom2.png<>res://Scripts/Control.gd<>res://Scripts/candel.gd<>uid://c0y0rilytbiqr::::res://objects/samplecandle.png<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>uid://bo83paqaskuo0::::res://objects/samplefeather.png
 ::res://objects/::1721697649
 samplebucket.png::CompressedTexture2D::3252042913749352282::1721697649::1721697649::1::::<><>::
 samplecandle.png::CompressedTexture2D::6578656246045530569::1721695104::1721697275::1::::<><>::
