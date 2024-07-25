@@ -1,0 +1,27 @@
+if {element} <= 1:
+	Shadow: Back so soon?
+	Shadow: Did you need some advice?
+	MC: No I think I've got this.
+	Shadow: Just remember to check your book for ideas for the elements.
+elif {element} > 1:
+	if {element} <= 3:
+		Shadow: I see you found enough of the elements for my tips to work.
+		MC: See? You are on the other side of the door.
+		Shadow: Less see and more feel, it was a figure of speech.
+		MC: I see.
+		Shadow: Anyway, come to hear my advice to make things easier?
+		- Yes [if true == true][else="hide"]
+			Shadow: HAHA, of course you are. Be ready, this is gonna hurt
+			(A force hits the MC like a punch to the gut.)
+			MC: Ouch... What was that?
+			Shadow: That my young friend was my power...well a fraction of it at least.
+			MC: And what does your power do?
+			Shadow: My power lets you replace some of the elements required to complete an alchemical reaction.
+			MC: That's amazing, but why is that not something in my book?
+			Shadow: Because my power is advanced alchemy and normally requires years of study to master and is dangerous to the user.
+			MC: Dangerous?! I don’t think I want your power anymore.
+			Shadow: Haha, don’t worry my young friend. The people who have studied to obtain my power, have stolen it from me so the danger is caused because they don’t have the link that we now share.
+			MC: Oh, okay then, I'll give it a shot.
+			Shadow: You do that.
+		- No [if false == false][else="hide"]
+			Shadow: Well you know where to find me if you do.
