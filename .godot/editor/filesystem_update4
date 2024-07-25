@@ -1,1 +1,8 @@
-res://lab.tscn
+res://rooms/lab.tscn
+res://Scripts/InventoryManager.gd
+res://Scripts/Control.gd
+res://Scripts/candle.gd
+res://Scripts/bucket.gd
+res://Scripts/feather.gd
+res://Scripts/soil.gd
+res://alchemy.tscn
