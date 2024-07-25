@@ -29,3 +29,5 @@ func is_point_inside_shape(local_point: Vector2) -> bool:
 func obtain_item():
 	InventoryManager.add_to_inventory(item_name)
 	print(item_name + " has been added to inventory!")
+	var control_node = $"../../../Control"
+	control_node.check_required_items()

@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://ctqs5df2t1ahl"]
 
-[ext_resource type="Texture2D" uid="uid://d1qxkrwqrbvf8" path="res://rooms/images/sampleroom2.png" id="1_iryi5"]
+[ext_resource type="Texture2D" uid="uid://ddpjpiqv1shvt" path="res://rooms/images/labsketch.png" id="1_vype7"]
 [ext_resource type="Script" path="res://Scripts/Control.gd" id="2_xp2jr"]
 [ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
 [ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
@@ -22,9 +22,9 @@ size = Vector2(244, 68.5)
 [node name="lab" type="Node2D"]
 
 [node name="BackgroundImage" type="Sprite2D" parent="."]
-position = Vector2(960, 541)
-scale = Vector2(1, 0.998148)
-texture = ExtResource("1_iryi5")
+position = Vector2(959, 540)
+scale = Vector2(2.50066, 3.14118)
+texture = ExtResource("1_vype7")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
