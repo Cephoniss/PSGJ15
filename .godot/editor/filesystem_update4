@@ -6,3 +6,8 @@ res://Scripts/bucket.gd
 res://Scripts/feather.gd
 res://Scripts/soil.gd
 res://alchemy.tscn
+res://bedroom.tscn
+res://rooms/Labdoor.gd
+res://rooms/bedroom.tscn
+res://Bedroomdoor.gd
+res://AlchemyButton.gd

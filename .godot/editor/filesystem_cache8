@@ -1,5 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721867936
+::res://::1721873247
+alchemy.tscn::PackedScene::2998828252404975605::1721873247::0::1::::<><>::uid://du3dmkegan010::::res://objects/samplebook.png
+bedroom.tscn::PackedScene::4678320864794403777::1721873461::0::1::::<><>::uid://ojiouuocdpx1::::res://rooms/images/sketchbedroom.png
 Book2 - first read.dtl::Resource::-1::1721783398::0::1::::<><>::
 book 1 - find book.dtl::Resource::-1::1721765944::0::1::::<><>::
 icon.svg::CompressedTexture2D::1129711863279130275::1721593214::1721697021::1::::<><>::
@@ -9,6 +11,7 @@ Lab2 - enter shadow.dtl::Resource::-1::1721765098::0::1::::<><>::
 Lab3 - shadows door.dtl::Resource::-1::1721765808::0::1::::<><>::
 MC.dch::Resource::-1::1721764860::0::1::::<><>::
 Opening scene.dtl::Resource::-1::1721764550::0::1::::<><>::
+Bedroomdoor.gd::GDScript::-1::1721873473::0::1::::<>Area2D<>::
 Shadow.dch::Resource::-1::1721764884::0::1::::<><>::
 ::res://addons/::1721762966
 ::res://addons/dialogic/::1721762970
@@ -597,26 +600,28 @@ timeline.gd::GDScript::-1::1716201198::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1716201198::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1716201198::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://addons/dialogic/test-project/::1716201198
-::res://objects/::1721867936
+::res://objects/::1721872529
 Bucket.tscn::PackedScene::3085522945093173596::1721792561::0::1::::<><>::uid://dbcj31mhiiid2::::res://objects/object.tscn
 object.tscn::PackedScene::7234177489863509569::1721792561::0::1::::<><>::uid://c0y0rilytbiqr::::res://objects/samplecandle.png<>res://Scripts/candle.gd
 samplebook.png::CompressedTexture2D::8621045613144655129::1721867922::1721867936::1::::<><>::
 samplebucket.png::CompressedTexture2D::3252042913749352282::1721697649::1721697649::1::::<><>::
 samplecandle.png::CompressedTexture2D::6578656246045530569::1721695104::1721697275::1::::<><>::
+sampledoor.png::CompressedTexture2D::7860703795553374344::1721872525::1721872529::1::::<><>::
 samplefeather.png::CompressedTexture2D::3438915847956902837::1721697649::1721697649::1::::<><>::
 samplerock.png::CompressedTexture2D::5350838672816497007::1721697649::1721697649::1::::<><>::
 samplesoil.png::CompressedTexture2D::1570328493416031365::1721697649::1721697649::1::::<><>::
-::res://rooms/::1721867632
-lab.tscn::PackedScene::6140606086807958553::1721867632::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://Scripts/Control.gd<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd
-::res://rooms/images/::1721867860
+::res://rooms/::1721873247
+lab.tscn::PackedScene::6140606086807958553::1721873265::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://Scripts/Control.gd<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd<>res://rooms/Labdoor.gd
+Labdoor.gd::GDScript::-1::1721873244::0::1::::<>Area2D<>::
+::res://rooms/images/::1721872529
 labsketch.png::CompressedTexture2D::7401367934041045321::1721864558::1721864581::1::::<><>::
 sampleroom2.png::CompressedTexture2D::9018617306138177079::1721694948::1721697021::1::::<><>::
 sampleroom.png::CompressedTexture2D::1044593891293268635::1721600403::1721697021::1::::<><>::
 sketchbedroom.png::CompressedTexture2D::1001735029777787484::1721864558::1721864582::1::::<><>::
-::res://Scripts/::1721867632
-bucket.gd::GDScript::-1::1721867128::0::1::::<>Area2D<>::
+::res://Scripts/::1721870143
+bucket.gd::GDScript::-1::1721869569::0::1::::<>Area2D<>::
 candle.gd::GDScript::-1::1721867184::0::1::::<>Area2D<>::
-Control.gd::GDScript::-1::1721867632::0::1::::<>Control<>::
+Control.gd::GDScript::-1::1721870143::0::1::::<>Control<>::
 feather.gd::GDScript::-1::1721867192::0::1::::<>Node2D<>::
 InventoryManager.gd::GDScript::-1::1721867128::0::1::::<>Node<>::
 soil.gd::GDScript::-1::1721867217::0::1::::<>Area2D<>::
