@@ -28,18 +28,38 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "Book2 - first read": "res://Book2 - first read.dtl",
+"Door": "res://Door.dtl",
+"Element - air 1": "res://Element - air 1.dtl",
+"Element - air 2": "res://Element - air 2.dtl",
+"Element - earth": "res://Element - earth.dtl",
+"Element - fire": "res://Element - fire.dtl",
+"Element - water 1": "res://Element - water 1.dtl",
+"Element - water 2": "res://Element - water 2.dtl",
+"Element - water 3": "res://Element - water 3.dtl",
+"Element - water 4": "res://Element - water 4.dtl",
 "Initial search": "res://Initial search.dtl",
 "Lab1 - missing master": "res://Lab1 - missing master.dtl",
 "Lab2 - enter shadow": "res://Lab2 - enter shadow.dtl",
 "Lab3 - shadows door": "res://Lab3 - shadows door.dtl",
 "Opening scene": "res://Opening scene.dtl",
+"alchemy": "res://alchemy.dtl",
 "book 1 - find book": "res://book 1 - find book.dtl"
+}
+variables={
+"element": 0.0,
+"medallion": 0.0,
+"pendant": 0.0,
+"power": 0.0
 }
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
+
+[dotnet]
+
+project/assembly_name="PSGM15"
 
 [editor_plugins]
 

@@ -31,3 +31,4 @@ func obtain_item():
 	print(item_name + " has been added to inventory!")
 	var control_node = $"../../../Control"
 	control_node.check_required_items()
+	Dialogic.start("res://Element - air 2.dtl")
