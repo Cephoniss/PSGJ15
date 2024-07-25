@@ -1,0 +1,14 @@
+if {element} <= 3:
+	if {power} == 1:
+		MC: It should be the same process from the book just replacing some of the essence from the elements with this power.
+		(Unexpectedly there is no flash of light like the book suggested)
+		(Instead there is some shadowy tendrils coming from the apprentice’s hands and combining with the essence of the elements)
+		(Its less combining and more devouring)
+		(The apprentice is mesmerized by the sight and despite some tiredness it felt good to use the power)
+		set {pendant} = 1
+elif {element} == 4:
+	MC: If I remember correctly, the book said to combine the essence of the elements from the mediums with my energy.
+	(A flash of light as the apprentice combines the essence of the elements into a single medallion shaped object)
+	MC: Oh, I did it.
+	MC: Lets get that door open.
+	set {medallion} = 1

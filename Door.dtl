@@ -23,5 +23,25 @@ elif {element} > 1:
 			Shadow: Haha, don’t worry my young friend. The people who have studied to obtain my power, have stolen it from me so the danger is caused because they don’t have the link that we now share.
 			MC: Oh, okay then, I'll give it a shot.
 			Shadow: You do that.
+			set {power} += 1
 		- No [if false == false][else="hide"]
 			Shadow: Well you know where to find me if you do.
+elif {element} == 4:
+	if {medallion} == 1:
+		MC: And there...
+		(the lock falls from the door and a swell of power blows the door open throwing the apprentice to the floor)
+		Shadow: HAHAHAHAHAHAH………..you utter fool!
+		Shadow: Finally free from that stupid prison!
+		Shadow: Thank you for freeing me, and as a reward for your help I will provide you with a portion of my… let’s call it “power”.
+		Shadow: Though it is less power and more curse, HAHAHAHA.
+		Shadow: If you are tempted to use this curse, and you will, it will sap away at your life force until there is nothing left.
+		Shadow: HAHAHAHAHA
+		(shadow vanishes as the apprentice passes out)
+	elif {pendant} == 1:
+		MC: And there…
+		(the lock falls from the door and a swell of power blows the door open throwing the apprentice to the floor)
+		Shadow: HAHAHAHAHAHA.....you utter fool!
+		Shadow: Finally free from that stupid prison!
+		Shadow: Thank you for freeing me, I will let you in on a secret, that “power” I gave you will sap away your life force until there is nothing left.
+		Shadow: I leave you with that as a present to remember me by, HAHAHAHA.
+		(Shadow vanishes as the apprentice passes out)
