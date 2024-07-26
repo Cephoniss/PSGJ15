@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PSGM15"
-run/main_scene="res://rooms/lab.tscn"
+run/main_scene="res://rooms/bedroom.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -51,11 +51,6 @@ variables={
 "pendant": 0.0,
 "power": 0.0
 }
-
-[display]
-
-window/size/viewport_width=1920
-window/size/viewport_height=1080
 
 [dotnet]
 

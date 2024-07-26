@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://AlchemyButton.gd" id="2_25skd"]
 
 [node name="Alchemy" type="Node2D"]
+scale = Vector2(0.6, 0.599999)
 
 [node name="BackgroundAlchemy" type="Sprite2D" parent="."]
 position = Vector2(963.25, 545.25)

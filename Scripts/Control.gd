@@ -22,8 +22,7 @@ func handle_missing_items():
 
 func alchemy_enabled():
 	print("Alchemy enabled")
-	#var alchemy_scene = load("res://alchemy.tscn")
-	get_tree().change_scene_to_file("res://alchemy.tscn")
+	#get_tree().change_scene_to_file("res://alchemy.tscn")
 
 
 

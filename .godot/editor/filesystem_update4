@@ -1,11 +1,7 @@
-res://Scripts/feather.gd
-res://alchemy.tscn
 res://rooms/lab.tscn
 res://rooms/bedroom.tscn
-res://rooms/lock.gd
-res://Scripts/candle.gd
-res://Scripts/bucket.gd
-res://Scripts/soil.gd
 res://Opening scene.dtl
+res://alchemy.tscn
+res://Scripts/Control.gd
+res://Bedroomdoor.gd
 res://Shadow.dch
-res://MC.dch

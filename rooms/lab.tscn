@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://rooms/lock.gd" id="1_l14ic"]
 [ext_resource type="Texture2D" uid="uid://ddpjpiqv1shvt" path="res://rooms/images/labsketch.png" id="1_vype7"]
-[ext_resource type="Script" path="res://Scripts/Control.gd" id="2_xp2jr"]
+[ext_resource type="PackedScene" uid="uid://doha4uyavtqw7" path="res://control.tscn" id="3_b0ydu"]
 [ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
 [ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
 [ext_resource type="Script" path="res://Scripts/bucket.gd" id="5_1q0up"]
@@ -28,7 +28,7 @@ size = Vector2(244, 68.5)
 size = Vector2(280, 852)
 
 [node name="lab" type="Node2D"]
-scale = Vector2(1.01856, 0.991637)
+scale = Vector2(0.612033, 0.625141)
 
 [node name="BackgroundLab" type="Sprite2D" parent="."]
 position = Vector2(944.467, 537.495)
@@ -47,12 +47,7 @@ script = ExtResource("1_l14ic")
 position = Vector2(4.5, -14)
 shape = SubResource("RectangleShape2D_qy8y7")
 
-[node name="Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("2_xp2jr")
+[node name="Control" parent="." instance=ExtResource("3_b0ydu")]
 
 [node name="CandelObject" parent="." instance=ExtResource("3_ber1y")]
 position = Vector2(-141, -422)
