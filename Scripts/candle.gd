@@ -27,9 +27,9 @@ func is_point_inside_shape(local_point: Vector2) -> bool:
 	elif shape is CircleShape2D:
 		return local_point.distance_to(Vector2.ZERO) <= shape.radius
 	return false
+
 func obtain_item():
-	InventoryManager.add_to_inventory(item_name)
-	print(item_name + " has been added to inventory!")
-	var control_node = $"../../../Control"
-	control_node.check_required_items()
-	Dialogic.start("res://Element - fire.dtl")
+	Dialogic.start("res://Timelines/Element - fire.dtl")
+	var delete_me = $"../.."
+	if delete_me:
+		delete_me.queue_free()

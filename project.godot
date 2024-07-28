@@ -11,46 +11,85 @@ config_version=5
 [application]
 
 config/name="PSGM15"
-run/main_scene="res://rooms/bedroom.tscn"
+run/main_scene="res://opening_scene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
-InventoryManager="*res://Scripts/InventoryManager.gd"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
 directories/dch_directory={
 "MC": "res://MC.dch",
-"Shadow": "res://Shadow.dch"
+"Shadow": "res://Shadow.dch",
+"bk72824/MC": "res://bk72824/MC.dch",
+"bk72824/Shadow": "res://bk72824/Shadow.dch"
 }
 directories/dtl_directory={
-"Book2 - first read": "res://Book2 - first read.dtl",
-"Door": "res://Door.dtl",
-"Element - air 1": "res://Element - air 1.dtl",
-"Element - air 2": "res://Element - air 2.dtl",
-"Element - earth": "res://Element - earth.dtl",
-"Element - fire": "res://Element - fire.dtl",
-"Element - water 1": "res://Element - water 1.dtl",
-"Element - water 2": "res://Element - water 2.dtl",
-"Element - water 3": "res://Element - water 3.dtl",
-"Element - water 4": "res://Element - water 4.dtl",
-"Initial search": "res://Initial search.dtl",
-"Lab1 - missing master": "res://Lab1 - missing master.dtl",
-"Lab2 - enter shadow": "res://Lab2 - enter shadow.dtl",
-"Lab3 - shadows door": "res://Lab3 - shadows door.dtl",
-"Opening scene": "res://Opening scene.dtl",
-"alchemy": "res://alchemy.dtl",
-"book 1 - find book": "res://book 1 - find book.dtl"
+"Book2 - first read": "res://Timelines/Book2 - first read.dtl",
+"Door": "res://Timelines/Door.dtl",
+"Element - air 1": "res://Timelines/Element - air 1.dtl",
+"Element - air 2": "res://Timelines/Element - air 2.dtl",
+"Element - earth": "res://Timelines/Element - earth.dtl",
+"Element - fire": "res://Timelines/Element - fire.dtl",
+"Element - water 1": "res://Timelines/Element - water 1.dtl",
+"Element - water 2": "res://Timelines/Element - water 2.dtl",
+"Element - water 3": "res://Timelines/Element - water 3.dtl",
+"Element - water 4": "res://Timelines/Element - water 4.dtl",
+"Initial search": "res://Timelines/Initial search.dtl",
+"Lab1 - missing master": "res://Timelines/Lab1 - missing master.dtl",
+"Lab2 - enter shadow": "res://Timelines/Lab2 - enter shadow.dtl",
+"Lab3 - shadows door": "res://Timelines/Lab3 - shadows door.dtl",
+"Opening scene": "res://Timelines/Opening scene.dtl",
+"alchemy": "res://Timelines/alchemy.dtl",
+"bk72824/Book2 - first read": "res://bk72824/Book2 - first read.dtl",
+"bk72824/Door": "res://bk72824/Door.dtl",
+"bk72824/Element - air 1": "res://bk72824/Element - air 1.dtl",
+"bk72824/Element - air 2": "res://bk72824/Element - air 2.dtl",
+"bk72824/Element - earth": "res://bk72824/Element - earth.dtl",
+"bk72824/Element - fire": "res://bk72824/Element - fire.dtl",
+"bk72824/Element - water 1": "res://bk72824/Element - water 1.dtl",
+"bk72824/Element - water 2": "res://bk72824/Element - water 2.dtl",
+"bk72824/Element - water 3": "res://bk72824/Element - water 3.dtl",
+"bk72824/Element - water 4": "res://bk72824/Element - water 4.dtl",
+"bk72824/Initial search": "res://bk72824/Initial search.dtl",
+"bk72824/Lab1 - missing master": "res://bk72824/Lab1 - missing master.dtl",
+"bk72824/Lab2 - enter shadow": "res://bk72824/Lab2 - enter shadow.dtl",
+"bk72824/Lab3 - shadows door": "res://bk72824/Lab3 - shadows door.dtl",
+"bk72824/Opening scene": "res://bk72824/Opening scene.dtl",
+"bk72824/alchemy": "res://bk72824/alchemy.dtl",
+"bk72824/book 1 - find book": "res://bk72824/book 1 - find book.dtl",
+"book 1 - find book": "res://Timelines/book 1 - find book.dtl"
 }
 variables={
 "element": 0.0,
+"hasbucket": false,
 "medallion": 0.0,
 "pendant": 0.0,
 "power": 0.0
 }
+glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style="Default"
+text/letter_speed=0.01
+text/initial_text_reveal_skippable=true
+text/text_reveal_skip_delay=0.1
+text/advance_delay=0.1
+text/autoadvance_per_character_delay=0.1
+text/autoadvance_ignored_characters_enabled=true
+animations/join_default_length=0.5
+animations/leave_default_length=0.5
+animations/leave_default_wait=true
+animations/join_default_wait=true
+choices/autofocus_first=true
+choices/delay=0.2
+choices/reveal_delay=0
+choices/reveal_by_input=false
+save/autosave_delay=60.0
+save/encryption_on_exports_only=true
+text/autopauses={}
 
 [dotnet]
 

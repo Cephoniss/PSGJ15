@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj7wd2ugeueqm"]
+
+[ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="1_v87hc"]
+
+[node name="CandelObject" instance=ExtResource("1_v87hc")]

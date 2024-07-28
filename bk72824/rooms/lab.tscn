@@ -1,0 +1,108 @@
+[gd_scene load_steps=17 format=3 uid="uid://ctqs5df2t1ahl"]
+
+[ext_resource type="Script" path="res://rooms/lock.gd" id="1_l14ic"]
+[ext_resource type="Texture2D" uid="uid://ddpjpiqv1shvt" path="res://rooms/images/labsketch.png" id="1_vype7"]
+[ext_resource type="PackedScene" uid="uid://doha4uyavtqw7" path="res://control.tscn" id="3_b0ydu"]
+[ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
+[ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
+[ext_resource type="Script" path="res://Scripts/bucket.gd" id="5_1q0up"]
+[ext_resource type="Texture2D" uid="uid://bo83paqaskuo0" path="res://objects/samplefeather.png" id="6_6uwfp"]
+[ext_resource type="Script" path="res://Scripts/feather.gd" id="6_equyi"]
+[ext_resource type="Texture2D" uid="uid://wmxc0qcnhr1f" path="res://objects/samplesoil.png" id="8_io38u"]
+[ext_resource type="Script" path="res://Scripts/soil.gd" id="9_btytg"]
+[ext_resource type="Script" path="res://rooms/Labdoor.gd" id="10_0nq75"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qy8y7"]
+size = Vector2(175, 376)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pdv1t"]
+size = Vector2(113, 179.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qkxgo"]
+size = Vector2(155, 238)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lgj1p"]
+size = Vector2(244, 68.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bjdsp"]
+size = Vector2(280, 852)
+
+[node name="lab" type="Node2D"]
+scale = Vector2(0.612033, 0.625141)
+
+[node name="BackgroundLab" type="Sprite2D" parent="."]
+position = Vector2(944.467, 537.495)
+scale = Vector2(2.50066, 3.14118)
+texture = ExtResource("1_vype7")
+
+[node name="Door2" type="Node2D" parent="."]
+position = Vector2(991, 475)
+
+[node name="Sprite2D" type="Sprite2D" parent="Door2"]
+
+[node name="Area2D" type="Area2D" parent="Door2/Sprite2D"]
+script = ExtResource("1_l14ic")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2/Sprite2D/Area2D"]
+position = Vector2(4.5, -14)
+shape = SubResource("RectangleShape2D_qy8y7")
+
+[node name="Control" parent="." instance=ExtResource("3_b0ydu")]
+
+[node name="CandelObject" parent="." instance=ExtResource("3_ber1y")]
+position = Vector2(-141, -422)
+
+[node name="Bucket" type="Node2D" parent="."]
+position = Vector2(141, -204)
+
+[node name="Sprite2D" type="Sprite2D" parent="Bucket"]
+position = Vector2(648, 813)
+scale = Vector2(0.97619, 0.994444)
+texture = ExtResource("4_ttfft")
+
+[node name="Area2D" type="Area2D" parent="Bucket/Sprite2D"]
+script = ExtResource("5_1q0up")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Bucket/Sprite2D/Area2D"]
+shape = SubResource("RectangleShape2D_pdv1t")
+
+[node name="Feather" type="Node2D" parent="."]
+position = Vector2(1239, 404)
+
+[node name="Sprite2D" type="Sprite2D" parent="Feather"]
+texture = ExtResource("6_6uwfp")
+
+[node name="Area2D" type="Area2D" parent="Feather/Sprite2D"]
+script = ExtResource("6_equyi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Feather/Sprite2D/Area2D"]
+position = Vector2(-1.5, 5)
+shape = SubResource("RectangleShape2D_qkxgo")
+
+[node name="Soil" type="Node2D" parent="."]
+position = Vector2(-440, 120)
+
+[node name="Sprite2D" type="Sprite2D" parent="Soil"]
+position = Vector2(866, 872)
+texture = ExtResource("8_io38u")
+
+[node name="Area2D" type="Area2D" parent="Soil/Sprite2D"]
+script = ExtResource("9_btytg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Soil/Sprite2D/Area2D"]
+position = Vector2(0, -4.75)
+scale = Vector2(0.847156, 1)
+shape = SubResource("RectangleShape2D_lgj1p")
+
+[node name="Door" type="Node2D" parent="."]
+position = Vector2(1702, 501)
+
+[node name="Sprite2D" type="Sprite2D" parent="Door"]
+scale = Vector2(1, 1.35122)
+
+[node name="Area2D" type="Area2D" parent="Door"]
+script = ExtResource("10_0nq75")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door/Area2D"]
+scale = Vector2(1.10614, 1.12)
+shape = SubResource("RectangleShape2D_bjdsp")

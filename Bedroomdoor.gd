@@ -3,7 +3,6 @@ extends Area2D
 
 func _ready():
 	set_process_input(true)
-	Dialogic.start("res://Opening scene.dtl")
 
 func _input(event):
 	# Check if the event is a mouse click and get position of mouse

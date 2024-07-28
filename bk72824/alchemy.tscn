@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://biywi7iew8bh2"]
+
+[ext_resource type="Texture2D" uid="uid://du3dmkegan010" path="res://objects/samplebook.png" id="1_gkjmu"]
+[ext_resource type="Script" path="res://AlchemyButton.gd" id="2_25skd"]
+
+[node name="Alchemy" type="Node2D"]
+scale = Vector2(0.6, 0.599999)
+
+[node name="BackgroundAlchemy" type="Sprite2D" parent="."]
+position = Vector2(963.25, 545.25)
+scale = Vector2(1.50235, 1.18496)
+texture = ExtResource("1_gkjmu")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 721.0
+offset_top = 761.0
+offset_right = 853.0
+offset_bottom = 792.0
+scale = Vector2(3.66321, 4.26219)
+tooltip_text = "Press for Alchemy!"
+text = "Alchemy button"
+script = ExtResource("2_25skd")

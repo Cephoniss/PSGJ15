@@ -23,4 +23,4 @@ func is_point_inside_shape(local_point: Vector2) -> bool:
 	# Add other shapes if needed
 	return false
 func talk_with_shadow():
-	Dialogic.start("res://Door.dtl")
+	Dialogic.start("res://Timelines/Door.dtl")
