@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722198399
-alchemy.tscn::PackedScene::2998828252404975605::1722198324::0::1::::<><>::uid://du3dmkegan010::::res://objects/samplebook.png<>res://AlchemyButton.gd
+::res://::1722199916
+alchemy.tscn::PackedScene::2998828252404975605::1722199709::0::1::::<><>::uid://du3dmkegan010::::res://objects/samplebook.png<>res://AlchemyButton.gd
 AlchemyButton.gd::GDScript::-1::1721943828::0::1::::<>Button<>::
 Bedroomdoor.gd::GDScript::-1::1722134422::0::1::::<>Area2D<>::
 black screen.png::CompressedTexture2D::594255676762239509::1721943828::1721943828::1::::<><>::
 control.tscn::PackedScene::8156409381884554932::1721943828::0::1::::<><>::res://Scripts/Control.gd<>res://addons/dialogic/Modules/Text/node_input.gd
-export_presets.cfg::TextFile::-1::1722190661::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1722198527::0::1::::<><>::
 icon.svg::CompressedTexture2D::1129711863279130275::1721943828::1721943828::1::::<><>::
 MC.dch::Resource::-1::1721943828::0::1::::<><>::
 oepningscenebookshelf.gd::GDScript::-1::1722197421::0::1::::<>Area2D<>::
@@ -597,15 +597,15 @@ event.gd::GDScript::-1::1721943828::0::1::::DialogicEvent<>Resource<>::
 timeline.gd::GDScript::-1::1721943828::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1721943828::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1721943828::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
-::res://audio/::1722195541
+::res://audio/::1722199669
+041415calmbgm.wav::AudioStreamWAV::6221503808101793536::1722199630::1722199669::1::::<><>::
 Moving Wood.wav::AudioStreamWAV::1884837168173048891::1722183404::1722183407::1::::<><>::
 shortstepsinwoodfloor.wav::AudioStreamWAV::4743048399799694588::1722134815::1722135269::1::::<><>::
-::res://Builds/::1722198521
-::res://Builds/Linux/::1722196017
-::res://Builds/WebGL/::1722198527
-index.apple-touch-icon.png::CompressedTexture2D::3241941390034260448::1722198527::1722198527::1::::<><>::
-index.icon.png::CompressedTexture2D::4906047792745524812::1722198527::1722198527::1::::<><>::
-index.png::CompressedTexture2D::7060936053696151675::1722198527::1722198527::1::::<><>::
+::res://Builds/::1722199891
+::res://Builds/WebGL/::1722199931
+index.apple-touch-icon.png::CompressedTexture2D::1207860236529599191::1722199931::1722199931::1::::<><>::
+index.icon.png::CompressedTexture2D::6365283633158884829::1722199931::1722199931::1::::<><>::
+index.png::CompressedTexture2D::1906689654704468872::1722199931::1722199931::1::::<><>::
 ::res://objects/::1722189854
 Bucket.tscn::PackedScene::3085522945093173596::1721943828::0::1::::<><>::uid://dbcj31mhiiid2::::res://objects/object.tscn
 HiddenDoor.png::CompressedTexture2D::2737203157302121940::1722189841::1722189854::1::::<><>::
@@ -617,14 +617,14 @@ sampledoor.png::CompressedTexture2D::7860703795553374344::1721943828::1721943828
 samplefeather.png::CompressedTexture2D::3438915847956902837::1721943828::1721943828::1::::<><>::
 samplerock.png::CompressedTexture2D::5350838672816497007::1721943828::1721943828::1::::<><>::
 samplesoil.png::CompressedTexture2D::1570328493416031365::1721943828::1721943828::1::::<><>::
-::res://rooms/::1722198399
-bedroom.tscn::PackedScene::4678320864794403777::1722198324::0::1::::<><>::uid://doha4uyavtqw7::::res://control.tscn<>uid://ojiouuocdpx1::::res://rooms/images/sketchbedroom.png<>res://Bedroomdoor.gd
-lab.tscn::PackedScene::6140606086807958553::1722198324::0::1::::<><>::res://rooms/lock.gd<>uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>uid://doha4uyavtqw7::::res://control.tscn<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd<>res://rooms/Labdoor.gd
+::res://rooms/::1722199871
+bedroom.tscn::PackedScene::4678320864794403777::1722199709::0::1::::<><>::uid://doha4uyavtqw7::::res://control.tscn<>uid://ojiouuocdpx1::::res://rooms/images/sketchbedroom.png<>res://Bedroomdoor.gd
+lab.tscn::PackedScene::6140606086807958553::1722199709::0::1::::<><>::res://rooms/lock.gd<>uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>uid://doha4uyavtqw7::::res://control.tscn<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd<>res://rooms/Labdoor.gd
 Labdoor.gd::GDScript::-1::1721943828::0::1::::<>Area2D<>::
 lock.gd::GDScript::-1::1722138348::0::1::::<>Area2D<>::
-opening_lab_scene.tscn::PackedScene::8150199495976707298::1722198399::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://rooms/opening_lab_scene.gd<>res://openingscenelabdoor.gd<>res://oepningscenebookshelf.gd
-opening_scene.tscn::PackedScene::8359662041769320282::1722198324::0::1::::<><>::res://Scripts/OpeningScene.gd
 opening_lab_scene.gd::GDScript::-1::1722190492::0::1::::<>Node2D<>::
+opening_lab_scene.tscn::PackedScene::8150199495976707298::1722199871::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://rooms/opening_lab_scene.gd<>res://openingscenelabdoor.gd<>res://oepningscenebookshelf.gd
+opening_scene.tscn::PackedScene::8359662041769320282::1722199709::0::1::::<><>::res://Scripts/OpeningScene.gd
 ::res://rooms/images/::1721943828
 labsketch.png::CompressedTexture2D::7401367934041045321::1721943828::1721943828::1::::<><>::
 sampleroom2.png::CompressedTexture2D::9018617306138177079::1721943828::1721943828::1::::<><>::
@@ -637,7 +637,7 @@ Control.gd::GDScript::-1::1722138468::0::1::::<>Control<>::
 feather.gd::GDScript::-1::1722141284::0::1::::<>Node2D<>::
 OpeningScene.gd::GDScript::-1::1722190492::0::1::::<>Node2D<>::
 soil.gd::GDScript::-1::1722141540::0::1::::<>Area2D<>::
-::res://Timelines/::1722198399
+::res://Timelines/::1722199707
 alchemy.dtl::Resource::-1::1721943828::0::1::::<><>::
 Book2 - first read.dtl::Resource::-1::1721943828::0::1::::<><>::
 book 1 - find book.dtl::Resource::-1::1721943828::0::1::::<><>::
@@ -654,5 +654,5 @@ Initial search.dtl::Resource::-1::1721943828::0::1::::<><>::
 Lab1 - missing master.dtl::Resource::-1::1722178664::0::1::::<><>::
 Lab2 - enter shadow.dtl::Resource::-1::1722179035::0::1::::<><>::
 Lab3 - shadows door.dtl::Resource::-1::1722197779::0::1::::<><>::
-Opening scene.dtl::Resource::-1::1722195544::0::1::::<><>::
+Opening scene.dtl::Resource::-1::1722199707::0::1::::<><>::
 openingscenelabdoor.dtl::Resource::-1::1722198399::0::1::::<><>::
