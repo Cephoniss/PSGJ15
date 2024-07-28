@@ -42,11 +42,13 @@ directories/dtl_directory={
 "Lab3 - shadows door": "res://Timelines/Lab3 - shadows door.dtl",
 "Opening scene": "res://Timelines/Opening scene.dtl",
 "alchemy": "res://Timelines/alchemy.dtl",
-"book 1 - find book": "res://Timelines/book 1 - find book.dtl"
+"book 1 - find book": "res://Timelines/book 1 - find book.dtl",
+"openingscenelabdoor": "res://Timelines/openingscenelabdoor.dtl"
 }
 variables={
 "element": 0.0,
 "hasbucket": false,
+"hastalktoshadow": false,
 "medallion": 0.0,
 "pendant": 0.0,
 "power": 0.0

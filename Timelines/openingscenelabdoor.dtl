@@ -1,0 +1,4 @@
+if {hastalktoshadow} == false:
+	MC: I can't leave yet. The voice sounds like it's coming from this room
+else:
+	MC: The book is inside this room. I should find and read it before leaving.

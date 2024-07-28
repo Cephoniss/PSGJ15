@@ -13,3 +13,5 @@ res://rooms/opening_lab_scene.tscn
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
 res://rooms/opening_lab_scene.gd
 res://Timelines/Opening scene.dtl
+res://Timelines/openingscenelabdoor.dtl
+res://openingscenelabdoor.gd

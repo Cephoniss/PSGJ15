@@ -12,6 +12,7 @@ func _input(event):
 			# Print a debug message to the console
 			print("This is a bookshelf!")
 			Dialogic.start("res://Timelines/Lab3 - shadows door.dtl")
+			queue_free()
 
 
 # Creating the function above to check if the click is inside the shape

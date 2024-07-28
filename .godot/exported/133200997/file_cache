@@ -100,9 +100,9 @@ res://addons/dialogic/Modules/Text/settings_text.tscn::6e7f1c0871380ee3870a6b985
 res://addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn::d4ddb74da471b473b2d64b9166b727bb::1721943828::res://.godot/exported/133200997/export-81d6117e9fbfcc345d9d0dd8f77e3c55-variables_editor.scn
 res://objects/Bucket.tscn::f8c5015887b9c7d5ffc811b673627f9e::1721943828::res://.godot/exported/133200997/export-9743611dc6456b7cb9e1d60a4b8991ad-Bucket.scn
 res://objects/object.tscn::34b0962fc7ec6321302a2e29d97d2ac9::1721943828::res://.godot/exported/133200997/export-c9ee0d8e46a01f657f98a2c67970a9a1-object.scn
-res://rooms/bedroom.tscn::0c3c499358d4c82eb72037ba2c9b0193::1722195319::res://.godot/exported/133200997/export-582b81370e1b526716df108962f9f52e-bedroom.scn
-res://rooms/lab.tscn::4d7e7cb17fe756ec8e5ad775a88e4b49::1722195319::res://.godot/exported/133200997/export-f6ae2aedfa85364b576c85c28bed15e9-lab.scn
-res://rooms/opening_lab_scene.tscn::b7ec291be9a15340ae114af76cc5f85b::1722195757::res://.godot/exported/133200997/export-e18c3bb6850b901d51dec1bb152d1f15-opening_lab_scene.scn
-res://rooms/opening_scene.tscn::3b76a3d7f2b6e57c82e8f6c1dc85b3d8::1722195319::res://.godot/exported/133200997/export-425f627843d2d5f18181d9b60b75422c-opening_scene.scn
-res://alchemy.tscn::2ed0a2eb09093800959cdd1beaceefaf::1722195319::res://.godot/exported/133200997/export-27433307569f7f13309134f9fa205d17-alchemy.scn
+res://rooms/bedroom.tscn::0c3c499358d4c82eb72037ba2c9b0193::1722198324::res://.godot/exported/133200997/export-582b81370e1b526716df108962f9f52e-bedroom.scn
+res://rooms/lab.tscn::4d7e7cb17fe756ec8e5ad775a88e4b49::1722198324::res://.godot/exported/133200997/export-f6ae2aedfa85364b576c85c28bed15e9-lab.scn
+res://rooms/opening_lab_scene.tscn::b7ec291be9a15340ae114af76cc5f85b::1722198399::res://.godot/exported/133200997/export-e18c3bb6850b901d51dec1bb152d1f15-opening_lab_scene.scn
+res://rooms/opening_scene.tscn::3b76a3d7f2b6e57c82e8f6c1dc85b3d8::1722198324::res://.godot/exported/133200997/export-425f627843d2d5f18181d9b60b75422c-opening_scene.scn
+res://alchemy.tscn::2ed0a2eb09093800959cdd1beaceefaf::1722198324::res://.godot/exported/133200997/export-27433307569f7f13309134f9fa205d17-alchemy.scn
 res://control.tscn::f069d57b185841ab92f868b24eaec6ed::1721943828::res://.godot/exported/133200997/export-e66311c87c39ec8c25379305b5ae724b-control.scn

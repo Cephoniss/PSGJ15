@@ -2,10 +2,23 @@ extends Area2D
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+func _input(event):
+	if event is InputEventMouseButton and event.pressed:
+		var click_position = event.position
+		# This is var is to convert click position to local space
+		var local_click_position = to_local(click_position)
+		# Check if the click is inside the object's collision shape
+		if is_point_inside_shape(local_click_position):
+			# Print a debug message to the console
+			print("This is a door!")
+			Dialogic.start("res://Timelines/openingscenelabdoor.dtl")
+			
+func is_point_inside_shape(local_point: Vector2) -> bool:
+	var shape = $CollisionShape2D.shape
+	if shape is RectangleShape2D:
+		var rect = Rect2(Vector2(-shape.extents.x, -shape.extents.y), shape.extents * 2)
+		return rect.has_point(local_point)
+	elif shape is CircleShape2D:
+		return local_point.distance_to(Vector2.ZERO) <= shape.radius
+	# Add other shapes if needed
+	return false

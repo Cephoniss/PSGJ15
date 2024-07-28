@@ -16,4 +16,5 @@ Shadow: Missing? If you help me out of here I can help you find your master.
 Shadow: And it sounds like that lock probably requires alchemy to open, you say "Master", are you an apprentice alchemist?
 MC: Yes, but Master hasn't taught me anything yet, all I have done is cook and clean for him.
 Shadow: Well I'm something of an alchemist myself, but you will still need a book on the basics to get started, there should be one nearby.
+set {hastalktoshadow} = true
 [signal arg="trans_to_lab2"]
