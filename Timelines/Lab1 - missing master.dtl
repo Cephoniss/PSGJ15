@@ -2,4 +2,4 @@
 MC: Master! Master sorry I'm so late
 MC: I'll get breakfast started now.
 MC: Master? Where are you?
-[signal arg="trans_to_lab"]
+jump Lab2 - enter shadow/

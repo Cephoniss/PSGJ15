@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PSGM15"
-run/main_scene="res://opening_scene.tscn"
+run/main_scene="res://rooms/opening_scene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -23,9 +23,7 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={
 "MC": "res://MC.dch",
-"Shadow": "res://Shadow.dch",
-"bk72824/MC": "res://bk72824/MC.dch",
-"bk72824/Shadow": "res://bk72824/Shadow.dch"
+"Shadow": "res://Shadow.dch"
 }
 directories/dtl_directory={
 "Book2 - first read": "res://Timelines/Book2 - first read.dtl",
@@ -44,23 +42,6 @@ directories/dtl_directory={
 "Lab3 - shadows door": "res://Timelines/Lab3 - shadows door.dtl",
 "Opening scene": "res://Timelines/Opening scene.dtl",
 "alchemy": "res://Timelines/alchemy.dtl",
-"bk72824/Book2 - first read": "res://bk72824/Book2 - first read.dtl",
-"bk72824/Door": "res://bk72824/Door.dtl",
-"bk72824/Element - air 1": "res://bk72824/Element - air 1.dtl",
-"bk72824/Element - air 2": "res://bk72824/Element - air 2.dtl",
-"bk72824/Element - earth": "res://bk72824/Element - earth.dtl",
-"bk72824/Element - fire": "res://bk72824/Element - fire.dtl",
-"bk72824/Element - water 1": "res://bk72824/Element - water 1.dtl",
-"bk72824/Element - water 2": "res://bk72824/Element - water 2.dtl",
-"bk72824/Element - water 3": "res://bk72824/Element - water 3.dtl",
-"bk72824/Element - water 4": "res://bk72824/Element - water 4.dtl",
-"bk72824/Initial search": "res://bk72824/Initial search.dtl",
-"bk72824/Lab1 - missing master": "res://bk72824/Lab1 - missing master.dtl",
-"bk72824/Lab2 - enter shadow": "res://bk72824/Lab2 - enter shadow.dtl",
-"bk72824/Lab3 - shadows door": "res://bk72824/Lab3 - shadows door.dtl",
-"bk72824/Opening scene": "res://bk72824/Opening scene.dtl",
-"bk72824/alchemy": "res://bk72824/alchemy.dtl",
-"bk72824/book 1 - find book": "res://bk72824/book 1 - find book.dtl",
 "book 1 - find book": "res://Timelines/book 1 - find book.dtl"
 }
 variables={

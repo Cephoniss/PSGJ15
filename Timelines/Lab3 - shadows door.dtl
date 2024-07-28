@@ -1,7 +1,10 @@
 ...ease....help....me
 MC: It's coming from behind here, gotta move this.
+[background arg="res://black screen.png" fade="1.0" transition="Push Up"]
 MC: nnnnnggggghhhh
-[wait time="3.0"]
+[sound path="res://audio/Moving Wood.wav" volume="0.0"]
+[wait time="2.0"]
+[background arg="res://objects/HiddenDoor.png" fade="0.0"]
 MC: Hello, can you hear me?
 Please help me, unlock this door and let me out.
 MC: Who are you and how did you get locked in there?
@@ -13,3 +16,4 @@ Shadow: Missing? If you help me out of here I can help you find your master.
 Shadow: And it sounds like that lock probably requires alchemy to open, you say "Master", are you an apprentice alchemist?
 MC: Yes, but Master hasn't taught me anything yet, all I have done is cook and clean for him.
 Shadow: Well I'm something of an alchemist myself, but you will still need a book on the basics to get started, there should be one nearby.
+[signal arg="trans_to_lab2"]

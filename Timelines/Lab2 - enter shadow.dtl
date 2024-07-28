@@ -4,3 +4,4 @@ MC: What was that? Is someone else here? Maybe Master?
 ...ase....elp...me
 MC: Someone is calling for help I think.
 MC: Sounds like it's coming from this room, but from where?
+[signal arg="trans_to_lab1"]

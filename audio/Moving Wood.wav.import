@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://14a80wj4moul"
+path="res://.godot/imported/Moving Wood.wav-93e26b6968f406c5b7d856f30e1e4150.sample"
+
+[deps]
+
+source_file="res://audio/Moving Wood.wav"
+dest_files=["res://.godot/imported/Moving Wood.wav-93e26b6968f406c5b7d856f30e1e4150.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
