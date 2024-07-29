@@ -1,17 +1,10 @@
+res://rooms/opening_lab_scene.tscn
+res://Scripts/inventoryManager.gd
+res://Scripts/bucket.gd
 res://rooms/lab.tscn
 res://alchemy.tscn
 res://rooms/bedroom.tscn
-res://opening_scene.tscn
-res://Timelines/Lab1 - missing master.dtl
-res://Timelines/Lab2 - enter shadow.dtl
-res://Scripts/OpeningScene.gd
-res://Timelines/Lab3 - shadows door.dtl
-res://opening_lab_scene.tscn
-res://oepningscenebookshelf.gd
 res://rooms/opening_scene.tscn
-res://rooms/opening_lab_scene.tscn
-res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
-res://rooms/opening_lab_scene.gd
-res://Timelines/Opening scene.dtl
-res://Timelines/openingscenelabdoor.dtl
-res://openingscenelabdoor.gd
+res://Scripts/candle.gd
+res://Scripts/feather.gd
+res://Scripts/soil.gd

@@ -5,6 +5,7 @@ var item_name: String = "candle"
 
 func _ready():
 	set_process_input(true)
+	check_for_item()
 
 func _input(event):
 	# Check if the event is a mouse click and get position of mouse
@@ -16,6 +17,7 @@ func _input(event):
 		if is_point_inside_shape(local_click_position):
 			# Print a debug message to the console
 			print("This is a candle!")
+			Dialogic.start("res://Timelines/Element - fire.dtl")
 			obtain_item()
 
 # Creating the function above to check if the click is inside the shape
@@ -29,7 +31,11 @@ func is_point_inside_shape(local_point: Vector2) -> bool:
 	return false
 
 func obtain_item():
-	Dialogic.start("res://Timelines/Element - fire.dtl")
+	InventoryManager.collect_item(item_name)
 	var delete_me = $"../.."
 	if delete_me:
 		delete_me.queue_free()
+		
+func check_for_item():
+	if InventoryManager.check_items(item_name):
+		obtain_item()

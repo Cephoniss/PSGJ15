@@ -1,13 +1,11 @@
 extends Area2D
 # I'd like to see if I can make a scene prefab of the script or object and use it for all interactable objects. 
 # I will most likely just copy and paste this script to other objects since there will only be a handful.
-#var item_name: String = "bucket"
-#var has_item: bool = false
+var item_name: String = "bucket"
 
 func _ready():
 	set_process_input(true)
-	#check_for_item()
-
+	check_for_item()
 
 func _input(event):
 	# Check if the event is a mouse click and get position of mouse
@@ -17,7 +15,7 @@ func _input(event):
 		var local_click_position = to_local(click_position)
 		# Check if the click is inside the object's collision shape
 		if is_point_inside_shape(local_click_position):
-			# Print a debug message to the console
+			Dialogic.start("res://Timelines/Element - water 2.dtl")
 			print("This is a bucket!")
 			obtain_item()
 
@@ -34,16 +32,11 @@ func is_point_inside_shape(local_point: Vector2) -> bool:
 	return false
 	
 func obtain_item():
-	#has_item = true
-	Dialogic.start("res://Timelines/Element - water 2.dtl")
+	InventoryManager.collect_item(item_name)
 	var delete_me = $"../.."
 	if delete_me:
 		delete_me.queue_free()
-		
-#func check_for_item():
-#	#if has_item == true:
-#		var delete_me = $"../.."
-#		if delete_me:
-#			delete_me.queue_free()
-#	else:
-#		return
+	
+func check_for_item():
+	if InventoryManager.check_items(item_name):
+		obtain_item()
