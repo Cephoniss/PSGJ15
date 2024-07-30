@@ -9,7 +9,6 @@ size = Vector2(213, 234.5)
 [node name="CandelObject" type="Node2D"]
 
 [node name="Candel" type="Sprite2D" parent="."]
-position = Vector2(445, 793)
 texture = ExtResource("1_ov35c")
 
 [node name="Area2D" type="Area2D" parent="Candel"]

@@ -8,3 +8,5 @@ res://rooms/opening_scene.tscn
 res://Scripts/candle.gd
 res://Scripts/feather.gd
 res://Scripts/soil.gd
+res://objects/object.tscn
+res://Timelines/Opening scene.dtl

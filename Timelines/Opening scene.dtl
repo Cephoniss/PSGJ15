@@ -2,10 +2,10 @@
 [background arg="res://black screen.png" fade="0.0"]
 MC: Mmm...hmm
 MC: Wha
-[background arg="res://rooms/images/sketchbedroom.png" fade="0.5" transition="Push Up"]
+[background arg="res://rooms/images/bedroom.png" fade="0.5" transition="Push Up"]
 MC: Wha...why is it so bright?
 MC: !!!!!!
 MC: When did it get so early? I need to get dressed and get breakfast ready for Master.
-[background arg="res://rooms/images/labsketch.png" fade="0.0"]
+[background arg="res://rooms/images/lab1.png" fade="0.0"]
 [music path="res://audio/shortstepsinwoodfloor.wav" fade="0.0" volume="0.0"]
 jump Lab1 - missing master/

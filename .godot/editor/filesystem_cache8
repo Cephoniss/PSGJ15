@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722287032
-alchemy.tscn::PackedScene::2998828252404975605::1722258496::0::1::::<><>::uid://du3dmkegan010::::res://objects/samplebook.png<>res://AlchemyButton.gd
+::res://::1722375596
+alchemy.tscn::PackedScene::2998828252404975605::1722372121::0::1::::<><>::uid://du3dmkegan010::::res://objects/samplebook.png<>res://AlchemyButton.gd
 AlchemyButton.gd::GDScript::-1::1722258495::0::1::::<>Button<>::
 Bedroomdoor.gd::GDScript::-1::1722258495::0::1::::<>Area2D<>::
 black screen.png::CompressedTexture2D::594255676762239509::1722258496::1722258496::1::::<><>::
@@ -9,7 +9,6 @@ icon.svg::CompressedTexture2D::1129711863279130275::1722258496::1722284394::1:::
 MC.dch::Resource::-1::1722258496::0::1::::<><>::
 oepningscenebookshelf.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
 openingscenelabdoor.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
-inventoryManager.gd::GDScript::-1::1722287271::0::1::::<>Node<>::
 Shadow.dch::Resource::-1::1722258496::0::1::::<><>::
 ::res://addons/::1722258496
 ::res://addons/dialogic/::1722258496
@@ -300,7 +299,7 @@ icon.svg::CompressedTexture2D::1187685797109235607::1722258496::1722284394::1:::
 icon_position.png::CompressedTexture2D::6240753079284806829::1722258496::1722258496::1::::<><>::
 index.gd::GDScript::-1::1722258496::0::1::::<>DialogicIndexer<>::
 node_portrait_container.gd::GDScript::-1::1722258496::0::1::::DialogicNode_PortraitContainer<>Control<>::
-preview_character.tres::Resource/DialogicCharacter::8864788605870491990::1722258496::0::1::::<><>::res://addons/dialogic/Resources/character.gd
+preview_character.tres::Resource/Resource::8864788605870491990::1722258496::0::1::::<><>::res://addons/dialogic/Resources/character.gd
 settings_portraits.gd::GDScript::-1::1722258496::0::1::::<>DialogicSettingsPage<>::
 settings_portraits.tscn::PackedScene::5887474122682821078::1722258496::0::1::::<><>::res://addons/dialogic/Modules/Character/settings_portraits.gd<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://dpwhshre1n4t6::::res://addons/dialogic/Editor/Events/Fields/field_options_dynamic.tscn<>uid://7mvxuaulctcq::::res://addons/dialogic/Editor/Events/Fields/field_file.tscn
 subsystem_portraits.gd::GDScript::-1::1722258496::0::1::::<>DialogicSubsystem<>::
@@ -458,13 +457,13 @@ vn_textbox_name_label_panel.tres::StyleBoxFlat::908733606549242590::1722258496::
 ::res://addons/dialogic/Modules/DefaultLayoutParts/Style_SpeakerTextbox/::1722258496
 part_config.cfg::TextFile::-1::1722258496::0::1::::<><>::
 preview.png::CompressedTexture2D::8025234003730989842::1722258496::1722258496::1::::<><>::
-speaker_textbox_style.tres::Resource/DialogicStyle::7601804504371859326::1722258496::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+speaker_textbox_style.tres::Resource/Resource::7601804504371859326::1722258496::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
 ::res://addons/dialogic/Modules/DefaultLayoutParts/Style_TextBubbles/::1722258496
 part_config.cfg::TextFile::-1::1722258496::0::1::::<><>::
 preview.png::CompressedTexture2D::1244020212817713961::1722258496::1722258496::1::::<><>::
-textbubble_style.tres::Resource/DialogicStyle::4178401552284372098::1722258496::0::1::::<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>res://addons/dialogic/Resources/dialogic_style.gd<>uid://d2it0xiap3gnt::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
+textbubble_style.tres::Resource/Resource::4178401552284372098::1722258496::0::1::::<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>res://addons/dialogic/Resources/dialogic_style.gd<>uid://d2it0xiap3gnt::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn
 ::res://addons/dialogic/Modules/DefaultLayoutParts/Style_VN_Default/::1722258496
-default_vn_style.tres::Resource/DialogicStyle::2357056026045195210::1722258496::0::1::::<><>::res://addons/dialogic/Resources/dialogic_style.gd<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn
+default_vn_style.tres::Resource/Resource::2357056026045195210::1722258496::0::1::::<><>::res://addons/dialogic/Resources/dialogic_style.gd<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn
 part_config.cfg::TextFile::-1::1722258496::0::1::::<><>::
 preview.png::CompressedTexture2D::1793830588723612143::1722258496::1722258496::1::::<><>::
 ::res://addons/dialogic/Modules/End/::1722258496
@@ -617,27 +616,31 @@ sampledoor.png::CompressedTexture2D::7860703795553374344::1722258496::1722258496
 samplefeather.png::CompressedTexture2D::3438915847956902837::1722258496::1722258496::1::::<><>::
 samplerock.png::CompressedTexture2D::5350838672816497007::1722258496::1722258496::1::::<><>::
 samplesoil.png::CompressedTexture2D::1570328493416031365::1722258496::1722258496::1::::<><>::
-::res://rooms/::1722258496
-bedroom.tscn::PackedScene::4678320864794403777::1722258496::0::1::::<><>::uid://doha4uyavtqw7::::res://control.tscn<>uid://ojiouuocdpx1::::res://rooms/images/sketchbedroom.png<>res://Bedroomdoor.gd
-lab.tscn::PackedScene::6140606086807958553::1722258496::0::1::::<><>::res://rooms/lock.gd<>uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>uid://doha4uyavtqw7::::res://control.tscn<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd<>res://rooms/Labdoor.gd
+::res://rooms/::1722372121
+bedroom.tscn::PackedScene::4678320864794403777::1722372121::0::1::::<><>::uid://doha4uyavtqw7::::res://control.tscn<>uid://ojiouuocdpx1::::res://rooms/images/sketchbedroom.png<>res://Bedroomdoor.gd
+lab.tscn::PackedScene::6140606086807958553::1722372121::0::1::::<><>::res://rooms/lock.gd<>uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>uid://doha4uyavtqw7::::res://control.tscn<>uid://dbcj31mhiiid2::::res://objects/object.tscn<>uid://bmlkw3o6qrquk::::res://objects/samplebucket.png<>res://Scripts/bucket.gd<>uid://bo83paqaskuo0::::res://objects/samplefeather.png<>res://Scripts/feather.gd<>uid://wmxc0qcnhr1f::::res://objects/samplesoil.png<>res://Scripts/soil.gd<>res://rooms/Labdoor.gd
 Labdoor.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
 lock.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
 opening_lab_scene.gd::GDScript::-1::1722258496::0::1::::<>Node2D<>::
-opening_lab_scene.tscn::PackedScene::8150199495976707298::1722258496::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://rooms/opening_lab_scene.gd<>res://openingscenelabdoor.gd<>res://oepningscenebookshelf.gd
-opening_scene.tscn::PackedScene::8359662041769320282::1722258496::0::1::::<><>::res://Scripts/OpeningScene.gd
-::res://rooms/images/::1722258496
+opening_lab_scene.tscn::PackedScene::8150199495976707298::1722372121::0::1::::<><>::uid://ddpjpiqv1shvt::::res://rooms/images/labsketch.png<>res://rooms/opening_lab_scene.gd<>res://openingscenelabdoor.gd<>res://oepningscenebookshelf.gd
+opening_scene.tscn::PackedScene::8359662041769320282::1722372121::0::1::::<><>::res://Scripts/OpeningScene.gd
+::res://rooms/images/::1722375596
+bedroom.png::CompressedTexture2D::2357282375230968470::1722375575::1722375597::1::::<><>::
+lab1.png::CompressedTexture2D::8210901708331766928::1722375575::1722375597::1::::<><>::
+lab2.png::CompressedTexture2D::4462410353989475148::1722375575::1722375597::1::::<><>::
 labsketch.png::CompressedTexture2D::7401367934041045321::1722258496::1722258496::1::::<><>::
 sampleroom2.png::CompressedTexture2D::9018617306138177079::1722258496::1722258496::1::::<><>::
 sampleroom.png::CompressedTexture2D::1044593891293268635::1722258496::1722258496::1::::<><>::
 sketchbedroom.png::CompressedTexture2D::1001735029777787484::1722258496::1722258496::1::::<><>::
-::res://Scripts/::1722258496
-bucket.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
-candle.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
+::res://Scripts/::1722289467
+bucket.gd::GDScript::-1::1722289180::0::1::::<>Area2D<>::
+candle.gd::GDScript::-1::1722289180::0::1::::<>Area2D<>::
 Control.gd::GDScript::-1::1722258496::0::1::::<>Control<>::
-feather.gd::GDScript::-1::1722258496::0::1::::<>Node2D<>::
+feather.gd::GDScript::-1::1722289407::0::1::::<>Node2D<>::
+inventoryManager.gd::GDScript::-1::1722288763::0::1::::<>Node<>::
 OpeningScene.gd::GDScript::-1::1722258496::0::1::::<>Node2D<>::
-soil.gd::GDScript::-1::1722258496::0::1::::<>Area2D<>::
-::res://Timelines/::1722258496
+soil.gd::GDScript::-1::1722289467::0::1::::<>Area2D<>::
+::res://Timelines/::1722375596
 alchemy.dtl::Resource::-1::1722258496::0::1::::<><>::
 Book2 - first read.dtl::Resource::-1::1722258496::0::1::::<><>::
 book 1 - find book.dtl::Resource::-1::1722258496::0::1::::<><>::

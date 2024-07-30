@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://ctqs5df2t1ahl"]
 
+[ext_resource type="Texture2D" uid="uid://b4tvina7hdfya" path="res://rooms/images/lab2.png" id="1_1e5qc"]
 [ext_resource type="Script" path="res://rooms/lock.gd" id="1_l14ic"]
-[ext_resource type="Texture2D" uid="uid://ddpjpiqv1shvt" path="res://rooms/images/labsketch.png" id="1_vype7"]
 [ext_resource type="PackedScene" uid="uid://doha4uyavtqw7" path="res://control.tscn" id="3_b0ydu"]
 [ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
 [ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
@@ -30,27 +30,31 @@ size = Vector2(280, 852)
 [node name="lab" type="Node2D"]
 scale = Vector2(0.612033, 0.625141)
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(944.393, 519.883)
+scale = Vector2(1, 1)
+
 [node name="BackgroundLab" type="Sprite2D" parent="."]
-position = Vector2(944.467, 537.495)
-scale = Vector2(2.50066, 3.14118)
-texture = ExtResource("1_vype7")
+position = Vector2(941.126, 517.483)
+scale = Vector2(1.89519, 2.36484)
+texture = ExtResource("1_1e5qc")
 
-[node name="Door2" type="Node2D" parent="."]
-position = Vector2(991, 475)
+[node name="HiddenDoor" type="Node2D" parent="."]
+position = Vector2(962.366, 462.296)
 
-[node name="Sprite2D" type="Sprite2D" parent="Door2"]
+[node name="Sprite2D" type="Sprite2D" parent="HiddenDoor"]
 
-[node name="Area2D" type="Area2D" parent="Door2/Sprite2D"]
+[node name="Area2D" type="Area2D" parent="HiddenDoor/Sprite2D"]
 script = ExtResource("1_l14ic")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2/Sprite2D/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HiddenDoor/Sprite2D/Area2D"]
 position = Vector2(4.5, -14)
 shape = SubResource("RectangleShape2D_qy8y7")
 
 [node name="Control" parent="." instance=ExtResource("3_b0ydu")]
 
 [node name="CandelObject" parent="." instance=ExtResource("3_ber1y")]
-position = Vector2(-141, -422)
+position = Vector2(429.715, 262.341)
 
 [node name="Bucket" type="Node2D" parent="."]
 position = Vector2(141, -204)

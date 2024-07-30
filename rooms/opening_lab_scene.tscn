@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://doeauh0rk70dy"]
 
-[ext_resource type="Texture2D" uid="uid://ddpjpiqv1shvt" path="res://rooms/images/labsketch.png" id="1_1mw7u"]
 [ext_resource type="Script" path="res://rooms/opening_lab_scene.gd" id="1_u3nwa"]
+[ext_resource type="Texture2D" uid="uid://do8ol7lxoow7i" path="res://rooms/images/lab1.png" id="2_n26j4"]
 [ext_resource type="Script" path="res://openingscenelabdoor.gd" id="2_qsiup"]
 [ext_resource type="Script" path="res://oepningscenebookshelf.gd" id="3_nlgxu"]
 
@@ -14,25 +14,39 @@ size = Vector2(118, 246)
 [node name="OpeningLabScene" type="Node2D"]
 script = ExtResource("1_u3nwa")
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 326)
+
 [node name="Bakcground" type="Sprite2D" parent="."]
-position = Vector2(589.875, 335.25)
-scale = Vector2(1.54423, 1.96324)
-texture = ExtResource("1_1mw7u")
+position = Vector2(576.25, 323.5)
+scale = Vector2(1.16346, 1.4738)
+texture = ExtResource("2_n26j4")
 
 [node name="Door" type="Node2D" parent="."]
+position = Vector2(1026, 298)
 
 [node name="Area2D" type="Area2D" parent="Door"]
-position = Vector2(1043, 312)
 scale = Vector2(1.04, 1.04)
 script = ExtResource("2_qsiup")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Door/Area2D"]
 shape = SubResource("RectangleShape2D_i6lhu")
 
+[node name="Door2" type="Node2D" parent="."]
+position = Vector2(5, 314)
+
+[node name="Area2D" type="Area2D" parent="Door2"]
+scale = Vector2(1.04, 1.04)
+script = ExtResource("2_qsiup")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2/Area2D"]
+position = Vector2(0.961538, 2.88462)
+shape = SubResource("RectangleShape2D_i6lhu")
+
 [node name="Bookshelf" type="Node2D" parent="."]
+position = Vector2(590, 281)
 
 [node name="Area2D" type="Area2D" parent="Bookshelf"]
-position = Vector2(611, 283)
 script = ExtResource("3_nlgxu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Bookshelf/Area2D"]
