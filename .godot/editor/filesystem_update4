@@ -10,3 +10,18 @@ res://Scripts/feather.gd
 res://Scripts/soil.gd
 res://objects/object.tscn
 res://Timelines/Opening scene.dtl
+res://Timelines/Lab1 - missing master.dtl
+res://rooms/opening_lab_book.gd
+res://Timelines/book 1 - find book.dtl
+res://Timelines/Book2 - first read.dtl
+res://Timelines/Lab3 - shadows door.dtl
+res://rooms/Door2Closet.gd
+res://rooms/closet.tscn
+res://DoorBack2Bedroom.gd
+res://outside.tscn
+res://soil.tscn
+res://Door2Inside.gd
+res://Well.gd
+res://rooms/Door2Outside.gd
+res://rooms/outside.tscn
+res://Timelines/alchemy.dtl

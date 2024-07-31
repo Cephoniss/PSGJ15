@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://flsjr6nhqt46"]
+
+[ext_resource type="Texture2D" uid="uid://duj3bu63icira" path="res://rooms/images/outside1.png" id="1_ei2ey"]
+[ext_resource type="PackedScene" uid="uid://cyepdrr6yvuwc" path="res://soil.tscn" id="2_y4f65"]
+[ext_resource type="Script" path="res://Door2Inside.gd" id="3_32q8x"]
+[ext_resource type="Script" path="res://Well.gd" id="4_b2y3d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_48vvl"]
+size = Vector2(190, 652)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmmv1"]
+
+[node name="Outside" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(580, 323)
+scale = Vector2(2.46795, 1.54589)
+texture = ExtResource("1_ei2ey")
+
+[node name="Soil" parent="Background" instance=ExtResource("2_y4f65")]
+position = Vector2(179.096, 36.8719)
+
+[node name="Door2Inside" type="Node2D" parent="."]
+position = Vector2(83, 319)
+
+[node name="Area2D" type="Area2D" parent="Door2Inside"]
+script = ExtResource("3_32q8x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2Inside/Area2D"]
+shape = SubResource("RectangleShape2D_48vvl")
+
+[node name="Well" type="Node2D" parent="."]
+position = Vector2(650, 319)
+scale = Vector2(12.52, 12)
+
+[node name="Area2D" type="Area2D" parent="Well"]
+script = ExtResource("4_b2y3d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Well/Area2D"]
+shape = SubResource("RectangleShape2D_qmmv1")

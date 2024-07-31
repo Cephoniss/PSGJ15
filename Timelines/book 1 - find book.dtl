@@ -1,4 +1,8 @@
-MC: Found it "Basics of Alchemy".
-Shadow: Good, now you need to find the items corresponding to the elements in the book to begin.
-Shadow: If you want some tips on how to make things easier, come back here once you have found two or three of the elements.
-MC: Alright I can do this, lets see what this book says.
+if {hastalktoshadow} == true:
+	MC: Found it "Basics of Alchemy".
+	Shadow: Good, now you need to find the items corresponding to the elements in the book to begin.
+	Shadow: If you want some tips on how to make things easier, come back here once you have found two or three of the elements.
+	MC: Alright I can do this, lets see what this book says.
+	jump Book2 - first read/
+else:
+	MC: It's a book

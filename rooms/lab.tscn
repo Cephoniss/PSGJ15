@@ -1,38 +1,23 @@
-[gd_scene load_steps=17 format=3 uid="uid://ctqs5df2t1ahl"]
+[gd_scene load_steps=10 format=3 uid="uid://ctqs5df2t1ahl"]
 
 [ext_resource type="Texture2D" uid="uid://b4tvina7hdfya" path="res://rooms/images/lab2.png" id="1_1e5qc"]
 [ext_resource type="Script" path="res://rooms/lock.gd" id="1_l14ic"]
 [ext_resource type="PackedScene" uid="uid://doha4uyavtqw7" path="res://control.tscn" id="3_b0ydu"]
 [ext_resource type="PackedScene" uid="uid://dbcj31mhiiid2" path="res://objects/object.tscn" id="3_ber1y"]
-[ext_resource type="Texture2D" uid="uid://bmlkw3o6qrquk" path="res://objects/samplebucket.png" id="4_ttfft"]
-[ext_resource type="Script" path="res://Scripts/bucket.gd" id="5_1q0up"]
-[ext_resource type="Texture2D" uid="uid://bo83paqaskuo0" path="res://objects/samplefeather.png" id="6_6uwfp"]
-[ext_resource type="Script" path="res://Scripts/feather.gd" id="6_equyi"]
-[ext_resource type="Texture2D" uid="uid://wmxc0qcnhr1f" path="res://objects/samplesoil.png" id="8_io38u"]
-[ext_resource type="Script" path="res://Scripts/soil.gd" id="9_btytg"]
+[ext_resource type="Script" path="res://rooms/Door2Outside.gd" id="6_2j5eq"]
 [ext_resource type="Script" path="res://rooms/Labdoor.gd" id="10_0nq75"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qy8y7"]
 size = Vector2(175, 376)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_pdv1t"]
-size = Vector2(113, 179.5)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_qkxgo"]
-size = Vector2(155, 238)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_lgj1p"]
-size = Vector2(244, 68.5)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bjdsp"]
 size = Vector2(280, 852)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0pu6x"]
+size = Vector2(20, 20.8783)
+
 [node name="lab" type="Node2D"]
 scale = Vector2(0.612033, 0.625141)
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(944.393, 519.883)
-scale = Vector2(1, 1)
 
 [node name="BackgroundLab" type="Sprite2D" parent="."]
 position = Vector2(941.126, 517.483)
@@ -54,52 +39,10 @@ shape = SubResource("RectangleShape2D_qy8y7")
 [node name="Control" parent="." instance=ExtResource("3_b0ydu")]
 
 [node name="CandelObject" parent="." instance=ExtResource("3_ber1y")]
-position = Vector2(429.715, 262.341)
-
-[node name="Bucket" type="Node2D" parent="."]
-position = Vector2(141, -204)
-
-[node name="Sprite2D" type="Sprite2D" parent="Bucket"]
-position = Vector2(648, 813)
-scale = Vector2(0.97619, 0.994444)
-texture = ExtResource("4_ttfft")
-
-[node name="Area2D" type="Area2D" parent="Bucket/Sprite2D"]
-script = ExtResource("5_1q0up")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Bucket/Sprite2D/Area2D"]
-shape = SubResource("RectangleShape2D_pdv1t")
-
-[node name="Feather" type="Node2D" parent="."]
-position = Vector2(1239, 404)
-
-[node name="Sprite2D" type="Sprite2D" parent="Feather"]
-texture = ExtResource("6_6uwfp")
-
-[node name="Area2D" type="Area2D" parent="Feather/Sprite2D"]
-script = ExtResource("6_equyi")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Feather/Sprite2D/Area2D"]
-position = Vector2(-1.5, 5)
-shape = SubResource("RectangleShape2D_qkxgo")
-
-[node name="Soil" type="Node2D" parent="."]
-position = Vector2(-440, 120)
-
-[node name="Sprite2D" type="Sprite2D" parent="Soil"]
-position = Vector2(866, 872)
-texture = ExtResource("8_io38u")
-
-[node name="Area2D" type="Area2D" parent="Soil/Sprite2D"]
-script = ExtResource("9_btytg")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Soil/Sprite2D/Area2D"]
-position = Vector2(0, -4.75)
-scale = Vector2(0.847156, 1)
-shape = SubResource("RectangleShape2D_lgj1p")
+position = Vector2(598.007, 359.919)
 
 [node name="Door" type="Node2D" parent="."]
-position = Vector2(1702, 501)
+position = Vector2(1663.31, 500.687)
 
 [node name="Sprite2D" type="Sprite2D" parent="Door"]
 scale = Vector2(1, 1.35122)
@@ -110,3 +53,15 @@ script = ExtResource("10_0nq75")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Door/Area2D"]
 scale = Vector2(1.10614, 1.12)
 shape = SubResource("RectangleShape2D_bjdsp")
+
+[node name="Door2Outside" type="Node2D" parent="."]
+position = Vector2(50.6509, 508.685)
+scale = Vector2(-11.9527, 43.3653)
+
+[node name="Area2D" type="Area2D" parent="Door2Outside"]
+script = ExtResource("6_2j5eq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2Outside/Area2D"]
+position = Vector2(0, 2.86102e-06)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_0pu6x")

@@ -1,3 +1,4 @@
+[background arg="res://objects/samplebook.png" fade="0.0"]
 MC: Lets see here...
 MC: Looks like I need to find an item to represent each of the four elements, oh, there are even examples.
 [wait time="1.0"]
@@ -12,3 +13,4 @@ MC: Haha dirt will be easy, should be some good dirt in the garden outside.
 MC: And finally a candle, that can be found here in the lab.
 [wait time="2.0"]
 MC: Alright, let's get started.
+[signal arg="trans_to_lab2"]
